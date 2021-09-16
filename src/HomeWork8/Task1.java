@@ -7,18 +7,19 @@ public class Task1 {
         //Write a program in Java to find the sum of the series 1 +11 + 111 +
         //1111 + .. n terms.
         // n is going to be stopping point
-        int first = 1;
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
-        int nTerm = scan.nextInt();
-        for (int i = 1; i <= nTerm; i++) {
-            if (i == nTerm) {
-                first = first * 10 + 1;
+        int firstNUmberInSeries=1;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter a number :");
+        int nTerm= scanner.nextInt();
+        // This loop will iterate n times
+        for (int i = 1; i <=nTerm ; i++) {
+            // I need to do something different in the last iteration
+            if (i==nTerm){
+                System.out.print(firstNUmberInSeries);
+            }else {
+                System.out.print(firstNUmberInSeries+"+");
 
-                System.out.print(first);
             }
-
-        }
-
+            firstNUmberInSeries=firstNUmberInSeries*10+1;}
     }
 }

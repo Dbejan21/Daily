@@ -23,17 +23,11 @@ public class Multidimension2 {
                 for (String [] state:states) {
                     for (String st:state) {
                         System.out.println(st.toUpperCase() +"@info.com");
-
                     }
-
                 }
-
                 System.out.println(states[i][j]);
                 System.out.println();
-
             }
         }
-
-
     }
 }
