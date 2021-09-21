@@ -14,7 +14,6 @@ public class MultiDementional1 {
         numbers[0][3]=44;
         numbers[2][3]=99;
 
-
         System.out.println(numbers[0][0]);
         System.out.println(numbers[0][3]);
         System.out.println(numbers[2][3]);
@@ -26,7 +25,13 @@ public class MultiDementional1 {
 
 
                 System.out.println(numbers[i][j]);
+                for (int []array:numbers) {
+                    for (int number:array) {
+                        System.out.println("*"+number);
 
+                    }
+
+                }
 
 
             }
