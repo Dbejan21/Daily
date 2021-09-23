@@ -144,6 +144,20 @@ public class Main {
      */
 
     public boolean contains12(int[] nums) {
+        int indexof1 = -1;// we need to get smallest index number for 1 // we need to get number of first 1 in the array
+        int indexof2 = -1;//
+        for (int i = 0; i <nums.length ; i++) {
+            if (nums[i]==1 &&indexof1 ==-1){
+                indexof1 =i;
+
+            }
+            if (nums [i]==2){
+                indexof2 =i;
+            }
+            if (indexof1<indexof2);
+        }
+
+
         // TODO
         return false;
     }
