@@ -7,6 +7,6 @@ public class HomePractice {
         String x = "I love Java";
 
         String sub = x.substring(x.indexOf(" "), x.indexOf(" ", x.indexOf(" ")+1)  );
-        System.out.println(sub);
+        System.out.println(sub.trim());
     }
 }
