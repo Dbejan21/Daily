@@ -9,6 +9,8 @@ public class EqualsMethod {
         String c = new String ("David");
 
         String d = new String ("David");
+        String x = new String();
+
 
         System.out.println(a==b);
 

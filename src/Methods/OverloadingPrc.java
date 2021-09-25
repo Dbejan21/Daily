@@ -28,9 +28,9 @@ public class OverloadingPrc {
 // calculate the area for a square
     // formula >> A = l * l
 
-    public double areaCalculator(double legth) {
+    public double areaCalculator(double length) {
 
-        double area = legth * legth;
+        double area = length * length;
         return area;
 
 
